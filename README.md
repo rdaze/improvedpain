@@ -1,7 +1,7 @@
 # improvedpain
 
 Modified dumped source code of a ShellShock Live trace program
-Run ShellShock in 1366x768 & windowed
+Run ShellShock in 1366x768 or 1600x900 & windowed
 
 Use CTRL + IJKL to move parabola
 Use CTRL + WASD to move origin
