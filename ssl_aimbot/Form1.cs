@@ -218,8 +218,8 @@ namespace ssl_aimbot
 					this.label1.Text = this.power.ToString();
 					break;
 				case 11:
-					this.x = Cursor.Position.X;
-					this.y = Cursor.Position.Y - 22;
+					this.x = Cursor.Position.X + 8;
+					this.y = Cursor.Position.Y + 8;
 					break;
 				case 12:
 					this.x = this.w / 2;
