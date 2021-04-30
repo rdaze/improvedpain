@@ -233,9 +233,16 @@ namespace ssl_aimbot
 					break;
 				case 13:
 				{
-					string value = Interaction.InputBox("Wind = ", "Wind", "0", this.w / 2 - 170, this.h / 2 - 50);
-					this.wind = (int)Convert.ToInt16(value);
-					break;
+							try
+                            {
+								string value = Interaction.InputBox("Wind = ", "Wind", "0", this.w / 2 - 170, this.h / 2 - 50);
+								this.wind = (int)Convert.ToInt16(value);
+								break;
+							} catch (Exception e)
+                            {
+								MessageBox.Show("Invalid wind input", "Error", MessageBoxButtons.OK);
+								break;
+                            }
 				}
 				case 14:
 					this.v += 0.001;
