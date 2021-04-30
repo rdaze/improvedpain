@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS1508: Resource identifier 'ssl_aimbot.Form1.resources' has already been used in this assembly
+dotnet_diagnostic.CS1508.severity = silent
