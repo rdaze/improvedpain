@@ -7,7 +7,7 @@
     <ProjectGuid>{A8A8F30F-DAB7-4B0D-829D-74B641FCF254}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ssl_aimbot</RootNamespace>
-    <AssemblyName>pain</AssemblyName>
+    <AssemblyName>pain.1366</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
